@@ -17,8 +17,8 @@ async function getPhotos() {
   data.forEach((photo) => {
     let img = document.createElement("img");
     img.src = photo.urls.regular;
-    img.style.height = "500px";
-    img.style.width = "300px";
+    img.style.height = "400px";
+    img.style.width = "350px";
     box.appendChild(img);
   });
   fethcing = false;
